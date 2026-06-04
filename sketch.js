@@ -33,18 +33,18 @@ let level;
 
 function preload(){
   // load the images
-inGameBackground=loadImage("images/backgroundpokemon.png");
-mewtwoX=loadImage("images/mewtwoX.gif");
-mewtwo.img=loadImage("images/mewtwo.gif");
-mewtwoY=loadImage("images/MewtwoY.gif");
-gameOver=loadImage("images/gameOver.png");
-auraSphere=loadImage("images/aurasphere.png");
-bubble=loadImage("images/bubbles-png-4.png");
-oranBerry=loadImage("images/oranberry.webp");
-rock=loadImage("images/rock.webp");
-shadowBall=loadImage("images/shadowball.png");
-sitrusBerry=loadImage("images/sitrusberry.png");
-superPotion=loadImage("images/superpotion.png");
+inGameBackground=loadImage("backgroundpokemon.png");
+mewtwoX=loadImage("mewtwoX.gif");
+mewtwo.img=loadImage("mewtwo.gif");
+mewtwoY=loadImage("MewtwoY.gif");
+gameOver=loadImage("gameOver.png");
+auraSphere=loadImage("aurasphere.png");
+bubble=loadImage("bubbles-png-4.png");
+oranBerry=loadImage("oranberry.webp");
+rock=loadImage("rock.webp");
+shadowBall=loadImage("shadowball.png");
+sitrusBerry=loadImage("sitrusberry.png");
+superPotion=loadImage("superpotion.png");
 healImages=[oranBerry, sitrusBerry, superPotion];
 attackImages=[auraSphere, bubble, rock, shadowBall];
 

@@ -172,11 +172,11 @@ function characterScreen(){
 
   textSize(14);
 
-  text("300 HP",80,450);
+  text("200 HP",80,450);
   text("Tank Build",80,470);
   text("Slower Speed",80,490);
 
-  text("225 HP",360,450);
+  text("175 HP",360,450);
   text("Fast Build",360,470);
   text("Higher Risk",360,490);
 
@@ -205,7 +205,7 @@ function chooseMewtwoX(){
 
   mewtwo.img=mewtwoX;
 
-  player.maxHP=300;
+  player.maxHP=200;
   player.speed=8;
 
   hp=player.maxHP;
@@ -219,7 +219,7 @@ function chooseMewtwoY(){
 
   mewtwo.img=mewtwoY;
 
-  player.maxHP=225;
+  player.maxHP=175;
   player.speed=12;
 
   hp=player.maxHP;

@@ -60,7 +60,7 @@ attackImages=[auraSphere, bubble, rock, shadowBall];
 function setup() {
   //make the size
   createCanvas(600, 600);
-  
+  level=1;
   //mewtwo size
  mewtwo.W=mewtwo.img.width*0.5; 
 mewtwo.H=mewtwo.img.height*0.5;
